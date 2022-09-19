@@ -1,0 +1,12 @@
+require_relative 'binary_search_tree'
+
+tree = Tree.new((Array.new(15) { rand(1..100) }))
+p tree.balanced?
+print "PREORDER: ",tree.preorder()," INORDER: ",tree.inorder()," POSTORDER: ",tree.postorder()
+tree.insert(120)
+tree.insert(111)
+p tree.balanced?
+tree.rebalance()
+p tree.balanced?
+print "PREORDER: ",tree.preorder()," INORDER: ",tree.inorder()," POSTORDER: ",tree.postorder()
+
