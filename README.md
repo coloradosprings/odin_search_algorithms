@@ -2,6 +2,8 @@
 
 This repo contains two projects which are part of the odin-project curriculum:
 
--binary_search_tree
--knight_travails
--
+-binary_search_tree (https://www.theodinproject.com/lessons/ruby-binary-search-trees)
+\n
+-knight_travails (https://www.theodinproject.com/lessons/ruby-knights-travails)
+
+
